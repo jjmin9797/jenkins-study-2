@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class MainService {
 
-    final String START_MESSAGE = "HELLO SPRING BOOT";
+    final String START_MESSAGE = "Change Message Hello Jenkins and Ansible";
 
     public String getStartMessage() {
         return this.START_MESSAGE;
